@@ -117,42 +117,77 @@ In this section, you will create functions that either extend beyond the libc fu
     -   **Prototype:** `void ft_putnbr_fd(int n, int fd);`
     -   **Description:** Outputs the integer `n` to the given file descriptor `fd`.
 
+## 💎 Bonus Part 
+
+### Overview
+
+For the bonus part, you'll implement a set of functions to work with linked lists. These functions will build on the mandatory part and provide additional functionality for managing lists. Note that the bonus part will only be evaluated if the mandatory part is perfect and fully functional.
+
+### Functions to Implement
+
+1.  **ft_lstnew**
+    
+    -   **Prototype:** `t_list *ft_lstnew(void *content);`
+    -   **Description:** Allocates and returns a new node with `content` initialized and `next` set to NULL.
+2.  **ft_lstadd_front**
+    
+    -   **Prototype:** `void ft_lstadd_front(t_list **lst, t_list *new);`
+    -   **Description:** Adds a new node to the beginning of the list.
+3.  **ft_lstsize**
+    
+    -   **Prototype:** `int ft_lstsize(t_list *lst);`
+    -   **Description:** Counts and returns the number of nodes in the list.
+4.  **ft_lstlast**
+    
+    -   **Prototype:** `t_list *ft_lstlast(t_list *lst);`
+    -   **Description:** Returns the last node of the list.
+5.  **ft_lstadd_back**
+    
+    -   **Prototype:** `void ft_lstadd_back(t_list **lst, t_list *new);`
+    -   **Description:** Adds a new node to the end of the list.
+6.  **ft_lstdelone**
+    
+    -   **Prototype:** `void ft_lstdelone(t_list *lst, void (*del)(void *));`
+    -   **Description:** Frees the memory of a node's content and the node itself, using the function `del`.
+7.  **ft_lstclear**
+    
+    -   **Prototype:** `void ft_lstclear(t_list **lst, void (*del)(void *));`
+    -   **Description:** Deletes and frees all nodes from the list, setting the list pointer to NULL.
+8.  **ft_lstiter**
+    
+    -   **Prototype:** `void ft_lstiter(t_list *lst, void (*f)(void *));`
+    -   **Description:** Iterates through the list, applying function `f` to the content of each node.
+9.  **ft_lstmap**
+    
+    -   **Prototype:** `t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));`
+    -   **Description:** Applies function `f` to each node’s content and creates a new list from the results. Uses `del` to free node content if needed.
+
+### Implementation
+
+To complete the bonus part, include the new functions in the `libft.a` archive and update your `Makefile` with a `bonus` rule.
+
 ## 📂 Installation & Setup
 
 Instructions for setting up and running the project locally. Include any prerequisites and detailed steps.
 
-## 🔍 Usage
-
-Instructions on how to use the project. Include screenshots or GIFs if applicable.
-
-## 📜 Code Walkthrough
+## 📜 Code Walkthrough - on Notion
 
 A brief description of the code structure and important components. Include links to specific files or sections of code on GitHub.
 
 -   **File/Function 1:** Description of what it does.
 -   **File/Function 2:** Description of what it does.
 
-## 🧩 Challenges & Solutions
+## 🧩 Challenges & Solutions - on Website
 
 Discuss any significant challenges you faced and how you overcame them.
 
-## 💡 Future Improvements
-
-Ideas for future features or improvements.
-
-## 🤝 Contributing
-
-Guidelines for how others can contribute to the project (if applicable).
-
 ## 🔗 Links
-
--   Live Demo
 -   Notion Documentation
--   Your Website
+-   Website
 
 ## 🧑‍💻 Contact
 
 For any questions or inquiries, feel free to contact me:
 
--   **LinkedIn:** Your LinkedIn Profile
--   **Email:** Your Email Address
+-   **LinkedIn:**
+-   **Email:**
