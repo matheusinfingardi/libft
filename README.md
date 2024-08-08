@@ -1,15 +1,26 @@
-# **Project Title**
+# **LIBFT**
 
 ## 📋 Overview
 
-A brief description of what the project is about. Highlight its purpose, the problem it solves, and why it’s interesting or valuable.
+This project is about coding a C library.Libft is a project focused on creating a personal C library. It involves implementing various general-purpose functions from scratch, providing a hands-on challenge in understanding and ensuring the proper functionality of each component.
 
-## 🛠️ Technologies Used
+## ☑️ Common Instructions
 
--   **Language(s):** [e.g., Python, JavaScript]
--   **Framework(s):** [e.g., React, Flask]
--   **Tools:** [e.g., Git, Docker]
--   **Libraries:** [e.g., NumPy, Bootstrap]
+-   **Language and Norm Compliance:** The project must be written in C and adhere strictly to the Norm. Any bonus files/functions are included in the Norm check, and non-compliance will result in a zero grade.
+    
+-   **Error Handling:** Functions should not cause unexpected terminations such as segmentation faults, bus errors, or double frees. Projects exhibiting such errors will be deemed non-functional and will receive a zero during evaluation.
+    
+-   **Memory Management:** All dynamically allocated memory must be properly freed. Memory leaks are not tolerated.
+    
+-   **Makefile Requirements:** If applicable, include a Makefile that compiles source files with the flags `-Wall`, `-Wextra`, and `-Werror` using `cc`. The Makefile must contain the rules `$(NAME)`, `all`, `clean`, `fclean`, and `re`. It should not relink.
+    
+-   **Bonus Files:** For projects with a bonus section, include a `bonus` rule in the Makefile. Bonus files must be separated into a `_bonus.{c/h}` file if not specified otherwise. Mandatory and bonus parts are evaluated separately.
+    
+-   **Library Usage:** If the project requires using `libft`, place its sources and Makefile in a `libft` folder. Your project’s Makefile should compile the library first using its own Makefile, then compile the project.
+    
+-   **Testing:** Creating test programs is encouraged for validating your work. While these tests are not graded, they are useful for personal verification and during project defense.
+    
+-   **Submission:** Submit your work to the assigned Git repository. Only the content within the repository will be graded. Any errors detected during grading by Deepthought will result in the evaluation being halted.
 
 ## 🚀 Features
 
