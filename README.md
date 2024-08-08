@@ -22,11 +22,100 @@ This project is about coding a C library.Libft is a project focused on creating 
     
 -   **Submission:** Submit your work to the assigned Git repository. Only the content within the repository will be graded. Any errors detected during grading by Deepthought will result in the evaluation being halted.
 
-## 🚀 Features
+## 📋 Mandatory Part
 
--   **Feature 1:** Brief explanation of the feature.
--   **Feature 2:** Brief explanation of the feature.
--   **Feature 3:** Brief explanation of the feature.
+-   **Program Name:** `libft.a`
+-   **Required Files:** `Makefile`, `libft.h`, and `ft_*.c` files.
+-   **Makefile Rules:** Must include rules for `NAME`, `all`, `clean`, `fclean`, and `re`.
+-   **External Functions:** Use external functions as detailed below.
+-   **Libft Authorization:** Not applicable.
+-   **Description:** Develop a personal library containing a collection of useful functions. This library will serve as a valuable tool throughout your curriculum.
+
+## 📋 Features
+
+### Libc Functions
+
+In this part, you will reimplement a set of standard libc functions. These functions should follow the prototypes and behaviors defined in their man pages, with the only difference being their names, which should start with `ft_`. Functions that use the `restrict` qualifier from the C99 standard should be implemented without it.
+
+#### Functions to Implement:
+
+-   **isalpha**: `int ft_isalpha(int c);`
+-   **isdigit**: `int ft_isdigit(int c);`
+-   **isalnum**: `int ft_isalnum(int c);`
+-   **isascii**: `int ft_isascii(int c);`
+-   **isprint**: `int ft_isprint(int c);`
+-   **strlen**: `size_t ft_strlen(const char *s);`
+-   **memset**: `void *ft_memset(void *b, int c, size_t len);`
+-   **bzero**: `void ft_bzero(void *s, size_t len);`
+-   **memcpy**: `void *ft_memcpy(void *dest, const void *src, size_t n);`
+-   **memmove**: `void *ft_memmove(void *dest, const void *src, size_t len);`
+-   **strlcpy**: `size_t ft_strlcpy(char *dst, const char *src, size_t dstsize);`
+-   **strlcat**: `size_t ft_strlcat(char *dst, const char *src, size_t dstsize);`
+-   **toupper**: `int ft_toupper(int c);`
+-   **tolower**: `int ft_tolower(int c);`
+-   **strchr**: `char *ft_strchr(const char *s, int c);`
+-   **strrchr**: `char *ft_strrchr(const char *s, int c);`
+-   **strncmp**: `int ft_strncmp(const char *s1, const char *s2, size_t n);`
+-   **memchr**: `void *ft_memchr(const void *s, int c, size_t n);`
+-   **memcmp**: `int ft_memcmp(const void *s1, const void *s2, size_t n);`
+-   **strnstr**: `char *ft_strnstr(const char *haystack, const char *needle, size_t len);`
+-   **atoi**: `int ft_atoi(const char *str);`
+
+For the following functions, use `malloc()` for memory allocation:
+
+-   **calloc**: `void *ft_calloc(size_t count, size_t size);`
+-   **strdup**: `char *ft_strdup(const char *s);`
+
+### Additional Functions
+
+In this section, you will create functions that either extend beyond the libc functions or present them in a different format.
+
+#### Functions to Implement:
+
+-   **ft_substr**
+    
+    -   **Prototype:** `char *ft_substr(char const *s, unsigned int start, size_t len);`
+    -   **Description:** Allocates and returns a substring from the string `s`, starting at index `start` and with a maximum length of `len`.
+-   **ft_strjoin**
+    
+    -   **Prototype:** `char *ft_strjoin(char const *s1, char const *s2);`
+    -   **Description:** Allocates and returns a new string which is the result of concatenating `s1` and `s2`.
+-   **ft_strtrim**
+    
+    -   **Prototype:** `char *ft_strtrim(char const *s1, char const *set);`
+    -   **Description:** Allocates and returns a copy of `s1` with characters specified in `set` removed from both ends.
+-   **ft_split**
+    
+    -   **Prototype:** `char **ft_split(char const *s, char c);`
+    -   **Description:** Allocates and returns an array of strings obtained by splitting `s` using `c` as a delimiter. The array must end with a NULL pointer.
+-   **ft_itoa**
+    
+    -   **Prototype:** `char *ft_itoa(int n);`
+    -   **Description:** Allocates and returns a string representing the integer `n`. Handles negative numbers.
+-   **ft_strmapi**
+    
+    -   **Prototype:** `char *ft_strmapi(char const *s, char (*f)(unsigned int, char));`
+    -   **Description:** Applies the function `f` to each character of the string `s`, creating a new string with the results.
+-   **ft_striteri**
+    
+    -   **Prototype:** `void ft_striteri(char *s, void (*f)(unsigned int, char*));`
+    -   **Description:** Applies the function `f` to each character of the string `s`, passing its index and character by address.
+-   **ft_putchar_fd**
+    
+    -   **Prototype:** `void ft_putchar_fd(char c, int fd);`
+    -   **Description:** Outputs the character `c` to the given file descriptor `fd`.
+-   **ft_putstr_fd**
+    
+    -   **Prototype:** `void ft_putstr_fd(char *s, int fd);`
+    -   **Description:** Outputs the string `s` to the given file descriptor `fd`.
+-   **ft_putendl_fd**
+    
+    -   **Prototype:** `void ft_putendl_fd(char *s, int fd);`
+    -   **Description:** Outputs the string `s` to the given file descriptor `fd`, followed by a newline.
+-   **ft_putnbr_fd**
+    
+    -   **Prototype:** `void ft_putnbr_fd(int n, int fd);`
+    -   **Description:** Outputs the integer `n` to the given file descriptor `fd`.
 
 ## 📂 Installation & Setup
 
