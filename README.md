@@ -31,7 +31,7 @@ This project is about coding a C library.Libft is a project focused on creating 
 -   **Libft Authorization:** Not applicable.
 -   **Description:** Develop a personal library containing a collection of useful functions. This library will serve as a valuable tool throughout your curriculum.
 
-## 📋 Features
+## 🛠️ Features
 
 ### Libc Functions
 
