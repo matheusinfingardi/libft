@@ -104,7 +104,19 @@ Access the full documentation here
 | `ft_putendl_fd`   | Outputs the string `s` to the file descriptor `fd` followed by a newline.                                    |
 | `ft_putnbr_fd`    | Outputs the integer `n` to the file descriptor `fd`.                                                          |
 
+## Bonus Functions Overview
 
+| **Function Name** | **Description**                                                                                              |
+|-------------------|--------------------------------------------------------------------------------------------------------------|
+| `ft_lstnew`       | Allocates (with `malloc(3)`) and returns a new node. Initializes the `content` member with the given parameter and `next` to NULL. |
+| `ft_lstadd_front` | Adds the node `new` at the beginning of the list.                                                             |
+| `ft_lstsize`      | Counts the number of nodes in the list.                                                                       |
+| `ft_lstlast`      | Returns the last node of the list.                                                                           |
+| `ft_lstadd_back`  | Adds the node `new` at the end of the list.                                                                   |
+| `ft_lstdelone`    | Frees the memory of the node’s content using the function `del` and then frees the node itself. Does not free the `next` node. |
+| `ft_lstclear`     | Deletes and frees the given node and all successors using the function `del`, and sets the list pointer to NULL. |
+| `ft_lstiter`      | Iterates over the list and applies the function `f` to the content of each node.                             |
+| `ft_lstmap`       | Iterates over the list and applies the function `f` to each node's content, creating a new list. Uses the function `del` to delete nodes if needed. |
 
 ----------
 
