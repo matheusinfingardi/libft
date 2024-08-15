@@ -54,7 +54,11 @@ For more details about the project subject, refer to the [Subject PDF](link_to_s
 
 ----------
 
-## 📄 **Documentation** 
+## 📄 **Documentation**
+
+For a comprehensive overview of the project, including detailed explanations of how the program is implemented and additional coding insights, please visit the Notion page linked below. This documentation provides an in-depth look at the project's design, structure, and functionality.
+
+Access the full documentation here
 
 ### Functions Overview
 
