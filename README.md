@@ -1,7 +1,7 @@
 
 # 💠 **LIBFT** 
 
-> _`libft` is the inaugural project in the School 42 common core curriculum, aimed at developing a custom C library._
+> _`libft` is the first project in the School 42 common core curriculum, aimed at developing a custom C library._
 
 ----------
 
