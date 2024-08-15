@@ -20,11 +20,32 @@ This project focuses on creating a comprehensive library of utilities that will 
 
 ## 📍 **Introduction** 
 
-_Brief description of the project, general goal, and context._
+### Table
 
-Example:  
-"The `Project Name` is part of the School 42 curriculum and aims to... This repository contains the complete implementation of the project, as well as usage examples and tests."
+| Attribute            | Details                                                                                           |
+|----------------------|---------------------------------------------------------------------------------------------------|
+| Program Name         | `libft`                                                                                           |
+| Turn In Files        | `libft.h`, `*.c` files                                                                           |
+| Makefile             | `Makefile`                                                                                       |
+| External Functions   | None                                                                                              |
+| Libft Authorized     | N/A                                                                                           |
+| Description          | Development of a custom C library containing general-purpose functions and additional utilities. |
 
+### Subject PDF
+
+For more details about the project subject, refer to the [Subject PDF](link_to_subject_pdf).
+
+### Advice 📝
+
+- **Norminette**: Ensure that all code adheres to the coding standards enforced by Norminette. This includes formatting, function length, variable naming, and overall code style. Failure to comply with these standards will result in code rejection.
+  
+- **Memory Leaks**: Verify that the project does not produce memory leaks. Use tools such as Valgrind to check for any memory allocation issues and ensure that all dynamically allocated memory is properly freed.
+
+- **Segmentation Faults**: Thoroughly test the code to prevent segmentation faults. Make sure all pointers are properly initialized and that memory accesses are within valid bounds.
+
+- **Flags Used**: Utilize appropriate compiler flags for debugging and optimization. For example, use `-Wall -Wextra -Werror` to enable all warnings and treat them as errors. Ensure that the Makefile includes commands to compile with these flags to maintain code quality.
+
+- **Testing**: Implement comprehensive testing for all functions to verify correctness and robustness. Ensure that tests cover various edge cases and typical usage scenarios.
 ----------
 
 ##  📚 **Project Subject**
