@@ -3,7 +3,9 @@
 
 > _`libft` is the first project in the School 42 common core curriculum, aimed at developing a custom C library._
 
+<br><br>
 ----------
+<br><br>
 
 ## 📋 **Table of Contents** 
 
@@ -14,14 +16,19 @@
 5.  [References](#references)
 6.  [Evaluation](#evaluation)
 
+<br><br>
 ----------
+<br><br>
 
 ## 📍 **Introduction**
 
 The objective is to implement a range of general-purpose functions that are commonly available in standard libraries, as well as additional functions designed by the developer. <br> <br>
 This project focuses on creating a comprehensive library of utilities that will be fundamental for various programming tasks. It serves as a foundational exercise in C programming, providing essential functions to support future projects.
 
+<br><br>
 ----------
+<br><br>
+
 ##  📚 **Project Subject**
 
 ### Table
@@ -50,9 +57,10 @@ For more details about the project subject, refer to the [Subject PDF](link_to_s
 - **Flags Used**: Utilize appropriate compiler flags for debugging and optimization. For example, use `-Wall -Wextra -Werror` to enable all warnings and treat them as errors. Ensure that the Makefile includes commands to compile with these flags to maintain code quality.
 
 - **Testing**: Implement comprehensive testing for all functions to verify correctness and robustness. Ensure that tests cover various edge cases and typical usage scenarios.
+
+<br><br>
 ----------
-
-
+<br><br>
 
 ## 📄 **Documentation** 
 
@@ -61,7 +69,9 @@ _Link to detailed documentation, typically hosted on another platform like Notio
 Example:  
 "The complete documentation of the project, including architecture, algorithms used, and design decisions, can be accessed here."
 
+<br><br>
 ----------
+<br><br>
 
 ## 🛠️ **How to Use/Test** 
 
@@ -81,7 +91,9 @@ To run the project, use the command: `bash ./executable-name`
 
 To run the tests: `bash ./run_tests.sh`
 
+<br><br>
 ----------
+<br><br>
 
 ## 🔗 **References** 
 
@@ -92,7 +104,9 @@ Example:
 -   Official Documentation for Library X
 -   Article on Algorithm Y
 
+<br><br>
 ----------
+<br><br>
 
 ## 🏆 **Evaluation** 
 
