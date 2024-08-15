@@ -56,10 +56,51 @@ For more details about the project subject, refer to the [Subject PDF](link_to_s
 
 ## 📄 **Documentation** 
 
-_Link to detailed documentation, typically hosted on another platform like Notion._
+### Functions Overview
 
-Example:  
-"The complete documentation of the project, including architecture, algorithms used, and design decisions, can be accessed here."
+| **Function Name** | **Description**                                                                                                                                                           |
+|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `ft_isalpha`      | Checks if the character is an alphabetic letter.                                                                                                                             |
+| `ft_isdigit`      | Checks if the character is a digit.                                                                                                                                           |
+| `ft_isalnum`      | Checks if the character is alphanumeric (i.e., a letter or a digit).                                                                                                        |
+| `ft_isascii`      | Checks if the character is an ASCII character.                                                                                                                               |
+| `ft_isprint`      | Checks if the character is printable (including space).                                                                                                                       |
+| `ft_strlen`       | Computes the length of a string (excluding the null terminator).                                                                                                             |
+| `ft_memset`       | Fills the first `n` bytes of the memory area with the constant byte `c`.                                                                                                    |
+| `ft_bzero`        | Sets the first `n` bytes of the memory area to zero.                                                                                                                         |
+| `ft_memcpy`       | Copies `n` bytes from one memory area to another.                                                                                                                            |
+| `ft_memmove`      | Moves `n` bytes from one memory area to another, handling overlapping regions.                                                                                             |
+| `ft_strlcpy`      | Copies up to `size - 1` characters from a string to another and null-terminates the destination.                                                                             |
+| `ft_strlcat`      | Appends up to `size - strlen(dst) - 1` characters from a string to another and null-terminates the result.                                                                    |
+| `ft_toupper`      | Converts a character to uppercase.                                                                                                                                             |
+| `ft_tolower`      | Converts a character to lowercase.                                                                                                                                             |
+| `ft_strchr`       | Locates the first occurrence of a character in a string.                                                                                                                     |
+| `ft_strrchr`      | Locates the last occurrence of a character in a string.                                                                                                                      |
+| `ft_strncmp`      | Compares up to `n` characters of two strings.                                                                                                                                |
+| `ft_memchr`       | Locates the first occurrence of a byte in a memory block.                                                                                                                    |
+| `ft_memcmp`       | Compares `n` bytes of two memory blocks.                                                                                                                                       |
+| `ft_strnstr`      | Finds the first occurrence of a substring within a string, up to `len` characters.                                                                                          |
+| `ft_atoi`         | Converts a string to an integer.                                                                                                                                              |
+| `ft_calloc`       | Allocates memory for an array of `nmemb` elements of `size` bytes each and initializes all bytes to zero. Uses `malloc()`.                                                   |
+| `ft_strdup`       | Duplicates a string by allocating sufficient memory and copying the string into the new memory area. Uses `malloc()`.                                                         |
+
+### External Functions Overview
+
+| **Function Name** | **Description**                                                                                              |
+|-------------------|--------------------------------------------------------------------------------------------------------------|
+| `ft_substr`       | Allocates (with `malloc(3)`) and returns a substring from the string `s`. The substring starts at `start` and has a maximum size of `len`. |
+| `ft_strjoin`      | Allocates (with `malloc(3)`) and returns a new string that is the result of concatenating `s1` and `s2`.     |
+| `ft_strtrim`      | Allocates (with `malloc(3)`) and returns a copy of `s1` with characters specified in `set` removed from both ends. |
+| `ft_split`        | Allocates (with `malloc(3)`) and returns an array of strings split by the character `c`. The array ends with a NULL pointer. |
+| `ft_itoa`         | Allocates (with `malloc(3)`) and returns a string representing the integer `n`. Handles negative numbers.    |
+| `ft_strmapi`      | Applies function `f` to each character of `s`, creating a new string with results. Allocates memory with `malloc(3)`. |
+| `ft_striteri`     | Applies function `f` to each character of `s`, modifying each character in place.                           |
+| `ft_putchar_fd`   | Outputs character `c` to the file descriptor `fd`.                                                           |
+| `ft_putstr_fd`    | Outputs the string `s` to the file descriptor `fd`.                                                          |
+| `ft_putendl_fd`   | Outputs the string `s` to the file descriptor `fd` followed by a newline.                                    |
+| `ft_putnbr_fd`    | Outputs the integer `n` to the file descriptor `fd`.                                                          |
+
+
 
 ----------
 
