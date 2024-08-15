@@ -120,22 +120,22 @@ Access the full documentation here
 
 ----------
 
-## 🛠️ **How to Use/Test** 
+## How to Use/Test 🛠️
 
-Follow the instructions below to set up, run, and test the project.
+Follow the instructions below to set up, test, and use the project.
 
 ### Installation
 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/username/repository.git
+    git clone https://github.com/matheusinfingardi/libft.git
     ```
 
 2. **Navigate to the project folder:**
 
     ```bash
-    cd project-name
+    cd libft
     ```
 
 3. **Install dependencies:**
@@ -144,25 +144,50 @@ Follow the instructions below to set up, run, and test the project.
     make
     ```
 
-### Execution
+### Testing
 
-To run the project, use the following command:
+To ensure the correctness and functionality of the library, you can use various test suites. Below are links to repositories that contain the testers utilized for this project:
 
-```bash
-./executable-name
-```
+- [Test Suite Repository 1](https://github.com/username/repository1): This repository includes tests for basic functions and edge cases.
+- [Test Suite Repository 2](https://github.com/username/repository2): Contains additional tests and examples of usage scenarios.
 
-### Installation
+These test suites should help you verify that all functions perform as expected. Make sure to review and run these tests to confirm the reliability of the library before integrating it into your own projects.
 
-1.  Clone the repository:
-    
- ### Execution
+### Using the Library in Your Project
 
-To run the project, use the command: `bash ./executable-name`
+1. **Include the library in your project:**
 
-### Tests
+    - Copy the compiled library (`libft.a` or similar) from the `libft` directory to your project's directory.
 
-To run the tests: `bash ./run_tests.sh`
+2. **Link the library when compiling your project:**
+
+    - If using `gcc` or `clang`, include the following flags in your compile command:
+
+    ```bash
+    gcc -o your-project your-project.c -L/path/to/library -llibft
+    ```
+
+    Replace `/path/to/library` with the path to the directory containing the library file and `libft` with the name of your library.
+
+3. **Include the header files in your source files:**
+
+    - Add the path to the library's header files to your project's include path. For example:
+
+    ```c
+    #include "libft.h"
+    ```
+
+4. **Compile and run your project:**
+
+    ```bash
+    gcc -o your-project your-project.c -L/path/to/library -llibft
+    ./your-project
+    ```
+
+---
+
+Replace the placeholders with actual names and paths relevant to your project. This guide provides a comprehensive overview of how to set up, test, and use the library in your own projects.
+
 
 ## 🔗 **References** 
 
