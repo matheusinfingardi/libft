@@ -110,9 +110,35 @@ Access the full documentation here
 
 ## 🛠️ **How to Use/Test** 
 
-_Clear instructions on how to run the project, install dependencies, or run tests, if applicable._
+Follow the instructions below to set up, run, and test the project.
 
-Example:
+### Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/username/repository.git
+    ```
+
+2. **Navigate to the project folder:**
+
+    ```bash
+    cd project-name
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    make
+    ```
+
+### Execution
+
+To run the project, use the following command:
+
+```bash
+./executable-name
+```
 
 ### Installation
 
@@ -125,8 +151,6 @@ To run the project, use the command: `bash ./executable-name`
 ### Tests
 
 To run the tests: `bash ./run_tests.sh`
-
-----------
 
 ## 🔗 **References** 
 
