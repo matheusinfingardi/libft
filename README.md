@@ -1,9 +1,7 @@
 
 # 💠 **LIBFT** 
 
-> _`libft` is the inaugural project in the School 42 common core curriculum, aimed at developing a custom C library. <br> <br>
-> The objective is to implement a range of general-purpose functions that are commonly available in standard libraries, as well as additional functions designed by the developer. <br> <br>
-This project focuses on creating a comprehensive library of utilities that will be fundamental for various programming tasks. It serves as a foundational exercise in C programming, providing essential functions to support and enhance future projects.._
+> _`libft` is the inaugural project in the School 42 common core curriculum, aimed at developing a custom C library._ <br> <br>
 
 ----------
 
@@ -18,7 +16,13 @@ This project focuses on creating a comprehensive library of utilities that will 
 
 ----------
 
-## 📍 **Introduction** 
+## 📍 **Introduction**
+
+> The objective is to implement a range of general-purpose functions that are commonly available in standard libraries, as well as additional functions designed by the developer. <br> <br>
+This project focuses on creating a comprehensive library of utilities that will be fundamental for various programming tasks. It serves as a foundational exercise in C programming, providing essential functions to support and enhance future projects.
+
+----------
+##  📚 **Project Subject**
 
 ### Table
 
@@ -48,14 +52,7 @@ For more details about the project subject, refer to the [Subject PDF](link_to_s
 - **Testing**: Implement comprehensive testing for all functions to verify correctness and robustness. Ensure that tests cover various edge cases and typical usage scenarios.
 ----------
 
-##  📚 **Project Subject**
 
-_Explanation of the topic addressed in the project, based on the subject provided by 42._
-
-Example:  
-"The goal of the project is to build an application that... The main focus is to deepen knowledge in... The project also covers topics such as..."
-
-----------
 
 ## 📄 **Documentation** 
 
