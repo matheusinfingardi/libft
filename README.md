@@ -1,7 +1,7 @@
 
 # 💠 **LIBFT** 
 
-> _`libft` is the inaugural project in the School 42 common core curriculum, aimed at developing a custom C library._ <br> <br>
+> _`libft` is the inaugural project in the School 42 common core curriculum, aimed at developing a custom C library._
 
 ----------
 
@@ -18,7 +18,7 @@
 
 ## 📍 **Introduction**
 
-> The objective is to implement a range of general-purpose functions that are commonly available in standard libraries, as well as additional functions designed by the developer. <br> <br>
+The objective is to implement a range of general-purpose functions that are commonly available in standard libraries, as well as additional functions designed by the developer. <br> <br>
 This project focuses on creating a comprehensive library of utilities that will be fundamental for various programming tasks. It serves as a foundational exercise in C programming, providing essential functions to support and enhance future projects.
 
 ----------
